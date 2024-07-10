@@ -8,7 +8,9 @@
 /* shared styles*/
 .secondary-bg{
     background-color: #FFF8F3;
-
+}
+.text-centre{
+    text-align: center;
 }
 .text-primary{
     color: #FD6E0A ;
@@ -24,8 +26,6 @@
    padding: 18px 35px;
    border-radius: 5%;
    border: none;
-   
-
 }
 .section-title{
     font-size:35px;
@@ -91,9 +91,14 @@ nav li a{
    width: 580PX;
 }
 /* main styles*/
-.main{
+main{
     max-width: 1180px;
     margin: 0 auto;
+
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
 
 }
 /*About styles*/
@@ -101,7 +106,7 @@ nav li a{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+    
 
 
 }
@@ -111,4 +116,14 @@ nav li a{
 }
 .item-description{
     font-weight: 600;
+}
+/*skills*/
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0,.06);
 }
